@@ -1,0 +1,22 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 8px 0;
+}
+img,ul{
+  display: flex;
+  justify-content:space-between;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  text-decoration: none;
+}
+button{
+  background-color:blue;
+  color: white;
+}
+.container{
+  max-width:1200px;
+  margin: auto;
+}
