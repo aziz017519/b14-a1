@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 nav{
   display: flex;
   justify-content: space-between;
@@ -12,11 +16,161 @@ img,ul{
   align-items: center;
   text-decoration: none;
 }
-button{
+button1{
   background-color:blue;
   color: white;
+  padding: 6px 15px;
 }
-.container{
-  max-width:1200px;
-  margin: auto;
+.backround{
+  background-image: url('./assets/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.about{
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.logo2{
+  color: white;
+  font-size:20px;
+  width:30%;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  
+}
+.logo1{
+  justify-content: center;
+  font-weight: bold;
+  font-size:20px;
+  align-items: center;
+  text-align: center;
+  padding:100px;
+}
+.Common-btn{
+  background-color:blue;
+  color: white;
+  padding:6px 15px;
+ position: absolute;
+ bottom:30px;
+right:600px;
+width:150px;
+}
+
+.header{
+  text-align: center;
+ padding: 30px;
+}
+.container1{
+  display:flex;
+  justify-content: center;
+  gap:15px;
+  margin-bottom: 10px;
+}
+.container2{
+ display: flex;
+justify-content: center;
+gap:15px;
+margin-bottom: 10px;
+}
+.about1{
+ margin:20px;
+}
+.about-box{
+ border: 2px solid #e6dddd;
+ border-radius: 8px;
+}
+.spot{
+  text-align: center;
+  padding: 10px;
+}
+.spot2{
+  color: #575757;
+   text-align: center;
+  padding: 10px;
+}
+.parent{
+  margin: 50px auto;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 500px;
+  color: #333333;
+ 
+}
+.card{
+  margin-top: 50px;
+  justify-content: space-between;
+   border: 2px solid #ebe8e8;
+   padding: 50px;
+   border-radius: 8px;
+}
+.had{
+  color: #888888;
+
+}
+.hero{
+  color: #0473f1;
+}
+.hero1{
+  background-color: #0473f1;
+  width: 150px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: none;
+}
+.hero2{
+  color: #0473f1;
+  width: 150px;
+  border:1px solid #2563EB;
+  border-radius: 3px;
+  height:none;
+}
+.hero3{
+  color:#0D1B2A ;
+  border:1px solid #0D1B2A;
+  width: 150px;
+  height:none;
+  border-radius: 3px;
+}
+.card-0{
+   margin-top: 50px;
+  justify-content: space-between;
+   border: 2px solid #ebe8e8;
+   padding: 50px;
+   border-radius: 8px;
+   background-color: #0D1B2A;
+
+.hold{
+  color: #4f4d4d;
+}
+
+.had, .zero, .hero{
+  padding-bottom: 10px;
+}
+.dubol-list{
+  list-style: circle;
+ 
+}
+.hading{
+  
+}
+.bird{
+  height: 300px;
+  width: 800px;
+  text-align: center;
+   border: 2px dotted red;
+  margin-left: 250px;
+  padding: 50px;
+  color: #7C3AED;
+  background-color: #ece3f8;
 }
