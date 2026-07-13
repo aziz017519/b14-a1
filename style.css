@@ -16,7 +16,7 @@ img,ul{
   align-items: center;
   text-decoration: none;
 }
-button1{
+.button1{
   background-color:blue;
   color: white;
   padding: 6px 15px;
@@ -149,6 +149,7 @@ margin-bottom: 10px;
    padding: 50px;
    border-radius: 8px;
    background-color: #0D1B2A;
+}
 
 .hold{
   color: #4f4d4d;
@@ -161,16 +162,16 @@ margin-bottom: 10px;
   list-style: circle;
  
 }
-.hading{
-  
-}
-.bird{
-  height: 300px;
-  width: 800px;
-  text-align: center;
-   border: 2px dotted red;
-  margin-left: 250px;
-  padding: 50px;
-  color: #7C3AED;
-  background-color: #ece3f8;
+
+.card1{
+ height: 300px;
+ text-align: center;
+ width: 500px;
+ max-width: 90%;
+ border: 2px dotted #e681c9;
+ padding: 50px;
+ margin: 40px auto;
+ box-sizing: border-box;
+ color: rgb(22, 1, 1);
+ background-color:rgb(223, 198, 217) ;
 }
