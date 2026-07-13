@@ -175,3 +175,17 @@ margin-bottom: 10px;
  color: rgb(22, 1, 1);
  background-color:rgb(223, 198, 217) ;
 }
+.footer{
+  background-color: #0D1B2A;
+  color: #4f4d4d;
+  padding: 20px;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-links{
+  display: flex;
+  gap: 15px;
+}
